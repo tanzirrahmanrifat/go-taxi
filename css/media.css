@@ -1,0 +1,294 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #work,
+  #about,
+  #service,
+  #passenger,
+  #contact {
+    padding-top: 60px;
+  }
+  #passenger,
+  #contact {
+    padding-bottom: 60px;
+  }
+  .footer-top-wrapper .logo,
+  h2 {
+    padding-bottom: 0px;
+  }
+  /* header start here  */
+  .header-top-left-wrapper {
+    padding-top: 10px;
+  }
+  .header-top-left-wrapper.float-end li {
+    margin: 2px;
+    font-size: 13px;
+  }
+  .header-top-left-wrapper.float-end .c-btn {
+    padding: 3px 8px;
+    font-size: 11px;
+  }
+  .logo a {
+    font-size: 20px;
+  }
+  .float-end {
+    float: unset !important;
+    justify-content: center;
+  }
+  /* header end here  */
+
+  /* slider start here  */
+  .slider {
+    height: 520px;
+  }
+  .carousel-indicators {
+    bottom: -20%;
+  }
+  .c_content {
+    text-align: center;
+  }
+  /* slider end here  */
+
+  /* call start here  */
+  #call{
+    margin-top: 60px;
+  }
+  .s-desti,
+  .e-desti,
+  .p-number {
+    margin-bottom: 20px;
+  }
+  .rode a {
+    width: 100%;
+  }
+  /* call end here  */
+
+  /* work start here  */
+  .address,
+  .find,
+  .payment {
+    margin-bottom: 60px;
+    border-right: none;
+  }
+  /* work end here  */
+  /* about start here  */
+  .parallax-window{
+   padding: 60px 0;
+  }
+
+  .about-wrapper {
+    text-align: center;
+  }
+  /* about end here  */
+
+  /* service start here  */
+  .service-wrapper button {
+    margin-bottom: 20px;
+  }
+  .service-item {
+    margin-bottom: 60px;
+  }
+  /* service end here  */
+  /* app store start here  */
+  .app-left {
+    display: none;
+  }
+  .app-right {
+    padding: 60px 0;
+    text-align: center;
+  }
+  /* app store end here  */
+  /* testimonial start here  */
+  #passenger .carousel-indicators {
+    bottom: -15%;
+  }
+  .p_content {
+    padding-top: 30px;
+    text-align: center !important;
+  }
+  /* testimonial end here  */
+
+  /* contact start here  */
+  .contact-filed {
+    padding-bottom: 60px;
+  }
+  /* contact end here  */
+
+  /* footer start here  */
+  footer {
+    text-align: center;
+  }
+  .footer-two h2,
+  .footer-four h2 {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .footer-one,
+  .footer-two,
+  .footer-three {
+    padding-bottom: 60px;
+  }
+  .footer-two li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  /* footer end here  */
+  /* scrolltop button  */
+  #topbtn {
+    right: 30px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #work,
+  #about,
+  #service,
+  #passenger,
+  #contact {
+    padding-top: 80px;
+  }
+  #passenger,
+  #contact {
+    padding-bottom: 80px;
+  }
+  .footer-top-wrapper .logo,
+  h2 {
+    padding-bottom: 0px;
+  }
+  /* header start here  */
+  .float-end {
+    float: unset !important;
+    justify-content: center;
+  }
+  /* header end here  */
+
+  /* slider start here  */
+  .slider {
+    height: 550px;
+  }
+  .carousel-indicators {
+    bottom: -10%;
+  }
+  .c_content {
+    text-align: center;
+  }
+  /* slider end here  */
+
+  /* call start here  */
+  .s-desti,
+  .e-desti {
+    margin-bottom: 20px;
+  }
+  .rode a {
+    width: 100%;
+  }
+  /* call end here  */
+
+  /* work start here  */
+  .address,
+  .find,
+  .payment {
+    border-right: none;
+  }
+  .address,
+  .find {
+    margin-bottom: 60px;
+  }
+  /* work end here  */
+  /* about start here  */
+  .about-wrapper {
+    text-align: center;
+  }
+  /* about end here  */
+
+  /* service start here  */
+  .service-wrapper button {
+    margin-bottom: 20px;
+  }
+  .service-item {
+    margin-bottom: 60px;
+  }
+  /* service end here  */
+  /* app store start here  */
+  .app-left {
+    display: none;
+  }
+  .app-right {
+    padding: 60px 0;
+    text-align: center;
+  }
+  /* app store end here  */
+  /* testimonial start here  */
+  #passenger .carousel-indicators {
+    bottom: -20%;
+  }
+  /* testimonial end here  */
+
+  /* contact start here  */
+  .contact-filed {
+    padding-bottom: 60px;
+  }
+  /* contact end here  */
+
+  /* footer start here  */
+  .footer-two h2,
+  .footer-four h2 {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .footer-one,
+  .footer-two {
+    padding-bottom: 60px;
+  }
+
+  /* footer end here  */
+}
+/* medium devices (tablets, 768px up  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header start here  */
+  header .float-end {
+    float: unset !important;
+    justify-content: center;
+  }
+  /* header end here  */
+
+  /* slider start here  */
+  .carousel-indicators {
+    bottom: -20%;
+  }
+  /* slider end here  */
+
+  /* work start here  */
+  .address,
+  .find,
+  .payment {
+    border-right: none;
+  }
+  /* work end here  */
+
+  /* app store start here  */
+  .app-right a img {
+    width: 48%;
+  }
+  /* app store end here  */
+
+  /* footer start here  */
+  .footer-two h2,
+  .footer-four h2 {
+    padding: 0;
+  }
+  /* footer end here  */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+/* Large devices ( large desktops, 992px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* Extra extra large devices ( extra extra large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+}
